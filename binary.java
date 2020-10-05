@@ -7,7 +7,7 @@ public class BinarySearchTree {
         Node right;  
   
         public Node(int data){  
-            //Assign data the new node, set left and right children to null  
+            //Assign data the new node, set left and right children to the null  
             this.data = data;  
             this.left = null;  
             this.right = null;  
@@ -46,6 +46,6 @@ public class BinarySearchTree {
         BinarySearchTree bt = new BinarySearchTree();  
   
         //Display total number of possible binary search tree with key 5  
-        System.out.println("The total number of possible Binary Search Trees with given key=" + bt.numOfBST(5));  
+        System.out.println("The total number of possible in a Binary Search Trees with given key are=" + bt.numOfBST(10));  
       }  
 }  
